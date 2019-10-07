@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/Users/kurtshiple/Desktop/Home/Independent Projects/AutomatedLeadGenerator/project-10-Automated-Lead-Generator-Application/enrollment/p10autoleadgen/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from dotenv.cli import cli
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())
