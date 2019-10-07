@@ -1,0 +1,2 @@
+# project-10-Automated-Lead-Generator-Application
+The purpose of this project is to develop a web interface that would allow a user to put in a list of potential clients and through the method of web scraping have specific information from specific websites be returned to that same web interface without refreshing the page. This will likely use flask as the microframework, a python script with selenium and beautiful soup for the web scraping, MongoDB to hold the data, and AJAX for the automatic page refreshing. 
